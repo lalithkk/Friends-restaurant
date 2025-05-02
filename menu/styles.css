@@ -371,11 +371,13 @@ nav ul li a:hover::after {
 }
 
 .footer__links {
+  list-style: none;
   display: grid;
   gap: 0.75rem;
 }
 
 .footer__links a {
+  text-decoration: none;
   color: #6b7280;
 }
 

@@ -31,22 +31,6 @@ dishes.forEach(dish => {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 addToCartButtons.forEach(button => {
   button.addEventListener('click', (e) => {
     e.stopPropagation();
